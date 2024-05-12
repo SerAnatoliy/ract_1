@@ -8,6 +8,20 @@ import {
   LeaderBoardProfiles,
 } from './ForbesList.styled';
 
-export const ForbesList = () => {
-  return <div>ForbesList</div>;
+export const ForbesList = ({ list }) => {
+  return (
+    <LeaderBoard>
+      <BoardHeader>
+        <BoardTitle>
+          <TitleTop>Leader</TitleTop>
+          <TitleBottom>Board</TitleBottom>
+        </BoardTitle>
+      </BoardHeader>
+      <LeaderBoardProfiles>
+        {list.map(item => (
+          <ForbesListItem key={item.id} {...item} />
+        ))}
+      </LeaderBoardProfiles>
+    </LeaderBoard>
+  );
 };
