@@ -3,7 +3,6 @@ import { FcBullish, FcBearish } from 'react-icons/fc';
 import { ForbesItem, Avatar, Name, Capital } from './ForbesListItem.styled';
 
 import { theme } from 'styles/theme';
-import { ca } from 'date-fns/locale';
 
 export const ForbesListItem = ({ name, capital, avatar, isIncrease }) => {
   return (
