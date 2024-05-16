@@ -7,7 +7,7 @@ export const formatDateToNow = date => {
 };
 
 export function convertDate(date) {
-  return format(new Date(date), 'MM/dd/yyyy h:mm p');
+  return format(new Date(date), 'Pp');
 }
 
-console.log(locale)
+console.log(locale);
