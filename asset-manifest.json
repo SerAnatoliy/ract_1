@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SerAnatoliy/ract_1/static/css/main.c3d5249d.css",
+    "main.js": "/SerAnatoliy/ract_1/static/js/main.5a76f379.js",
+    "index.html": "/SerAnatoliy/ract_1/index.html",
+    "main.c3d5249d.css.map": "/SerAnatoliy/ract_1/static/css/main.c3d5249d.css.map",
+    "main.5a76f379.js.map": "/SerAnatoliy/ract_1/static/js/main.5a76f379.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3d5249d.css",
+    "static/js/main.5a76f379.js"
+  ]
+}
